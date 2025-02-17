@@ -37,3 +37,34 @@ ul {
 h2 {
     color: #333;
 }
+
+/* Styl pro obrázky psů */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.dog-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styly pro textové bloky */
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Styly pro odkazy */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff;
+}
